@@ -1,0 +1,183 @@
+    @charset "utf-8";
+   
+
+
+   
+.right_box_350 {
+    max-width: 680px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: : 300px;
+    background-color: ;
+}
+
+.right_box_350 p {
+    display: block;
+    float: right;
+    padding-right: 135px;
+    border-left: 7px solid #347eb9;
+    border-bottom: 2px solid #347eb9;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color: #347eb9;
+    background-color: ;
+    font-size: 16px;
+}
+
+.right_box_350 a {
+    display: block;
+    float: left;
+    padding-right: 100px;
+    padding-left: 20px;
+    margin-top: 7px;
+    margin-right: 25px;
+    margin-left: 80px;
+    color: black;
+    background-color: #F4F4F4;
+    font-size: 14px;
+    width: 17em;
+}
+.right_box_350 li{
+  list-style:none;
+}
+
+.right_box_400 {
+    max-width: 680px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 80px;
+    background-color: ;
+}
+
+.right_box_400 a {
+    display: block;
+    float: right;
+    padding-right: 90px;
+    border-left: 7px solid #347eb9;
+    border-bottom: 2px solid #347eb9;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    color: #347eb9;
+    background-color: ;
+    font-size: 16px;
+}
+
+div#wrapper {
+    
+}
+
+.migishita p {
+     display: block;
+    width: 250px;
+    color: #000;
+    position: 5px 10px;
+}
+
+p.fixed-1 {
+    display: block;
+    float: right;
+    padding-right: 180px;
+    padding-left: 20px;
+    border-left: 7px solid #347eb9;
+    border-bottom: 2px solid #347eb9;
+    
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: #347eb9;
+    font-size: 17px;
+  
+}
+
+.overflow{
+
+
+}
+  .overflow img{
+    display: inline-block;
+     float: left;
+    margin-top: -10px;
+ margin-left: 10px;
+  margin-right: 10px;
+    width: 130px;
+    height:13 0px;
+  }
+
+
+.overflow p {
+ padding-right: : 60px;
+    width: 250px;
+    height: 150px;
+    background-color: #FFF;
+    overflow: scroll;
+     border: 1.5px solid #d6d6d6; 
+     color: #347eb9;
+    font-size: 13px;
+   padding-top: 20px;
+
+
+  }
+  .overflow h1 {
+ 
+  
+    color: #347eb9;
+    font-size: 17px;
+
+
+  }
+
+
+@media screen and (min-width: 1559px){
+/*この部分にパソコン用だけに対応させたいCSSコードを入力していく */
+
+
+
+p.fixed-1 {
+   float: left;
+  position: fixed;
+   margin-right: 0px;
+    right: 60px;
+    bottom: 270px;
+max-width: 1500px;
+  padding: 0 20px;
+  margin: 0px auto 0;
+}
+
+
+
+.overflow p {
+   position: fixed;
+   margin-right: 20px;
+    right: 40px;
+    bottom: 110px;
+
+}
+}
+
+@media screen and (max-width:  1558px){
+/*この部分にsumaho用だけに対応させたいCSSコードを入力していく */
+
+
+
+p.fixed-1 {
+
+    margin-right: 220px;
+     margin-left: 220px;
+     padding-right: 20px;
+     max-width: 3500px;
+
+ 
+}
+
+
+
+.overflow p {
+
+  margin-left: 120px;
+   margin-left: 120px;
+   max-width: 3500px;
+
+}
+}

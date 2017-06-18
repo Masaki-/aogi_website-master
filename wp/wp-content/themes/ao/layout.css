@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*------------------------------------------------------------
+レイアウト
+-------------------------------------------------------------*/
+
+html,body{ width: 100%; }
+
+
+/*--------------------------------------------------------
+1カラムレイアウト
+--------------------------------------------------------*/
+
+.col1 #container,
+.col1 #top,
+.col1 #header,
+.col1 #global-nav,
+.col1 #main,
+.col1 #main-image,
+.col1 #footer,
+.col1 .copyright{
+	width: 100%;
+}
+
+.col1 #top-in,
+.col1 #header-in,
+.col1 #global-nav-in,
+.col1 #main-in,
+.col1 #main-image-in,
+.col1 #footer-in,
+.col1 .copyright p{
+	margin: auto;
+}
+
+.col1 #main-contents{ width: 100%; }
+
+
+/*--------------------------------------------------------
+2カラムレイアウト
+--------------------------------------------------------*/
+
+.col2 #container,
+.col2 #top,
+.col2 #global-nav,
+.col2 #main,
+.col2 #main-image,
+.col2 #footer,
+.col2 .copyright,
+.col2r #container,
+.col2r #top,
+.col2r #header,
+.col2r #global-nav,
+.col2r #main,
+.col2r #main-image,
+.col2r #footer,
+.col2r .copyright{
+	width: 100%;
+}
+
+.col2 #top-in,
+.col2 #header-in,
+.col2 #global-nav-in,
+.col2 #main-in,
+.col2 #main-image-in,
+.col2 #footer-in,
+.col2 .copyright p,
+.col2r #top-in,
+.col2r #header-in,
+.col2r #global-nav-in,
+.col2r #main-in,
+.col2r #main-image-in,
+.col2r #footer-in,
+.col2r .copyright p{
+	margin: auto;
+}
+
+.col2 #sidebar,
+.col2r #sidebar{ width: 29.5%; }
+
+
+/*コンテンツ配置*/
+
+.col2r #main-and-sub{ float: right; }
+.col2r #sidebar{ float: left; }
+
+

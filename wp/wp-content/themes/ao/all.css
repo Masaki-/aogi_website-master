@@ -1,0 +1,1317 @@
+@charset "UTF-8";
+/*= require normalize-css
+ */
+/* 設定 */
+/* line 1, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+header {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 20px;
+  background-color: white;
+  height: 90px;
+  margin-bottom: 60px;
+  border-bottom: solid 0.5px black; }
+  @media only screen and (max-width: 750px) {
+    /* line 1, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+    header {
+      height: 46px;
+      padding: 8px 0;
+      margin-bottom: 15px; } }
+  /* line 14, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+  header .logoarea {
+    width: 900px;
+    margin: 0 auto; }
+    @media only screen and (max-width: 750px) {
+      /* line 14, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      header .logoarea {
+        width: 95%;
+        margin: 0 auto; } }
+  /* line 20, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+  header .logo {
+    float: left; }
+    @media only screen and (max-width: 750px) {
+      /* line 20, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      header .logo {
+        width: 100%;
+        text-align: center;
+        float: none; } }
+    /* line 26, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+    header .logo a {
+      display: block;
+      width: 50px; }
+      @media only screen and (max-width: 750px) {
+        /* line 26, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+        header .logo a {
+          margin: 0 auto;
+          width: 30px; } }
+      /* line 32, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      header .logo a img {
+        width: 100%; }
+
+/* --- フッター --- */
+/* line 36, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+footer {
+  position: relative;
+  text-align: center;
+  background-color: #0090d5;
+  clear: both; }
+  /* line 41, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+  footer .nav-to-contact {
+    padding-top: 90px; }
+    @media only screen and (max-width: 750px) {
+      /* line 41, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      footer .nav-to-contact {
+        padding: 30px auto 10px auto;
+        box-sizing: border-box; } }
+    /* line 47, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+    footer .nav-to-contact .contact-ttl p {
+      font-size: 26px;
+      color: #FFF;
+      padding-bottom: 14px;
+      letter-spacing: 0.1em;
+      margin: 0; }
+    @media only screen and (max-width: 750px) {
+      /* line 53, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      footer .nav-to-contact .contact-ttl .contact-sub-ttl {
+        padding: 0 10px;
+        box-sizing: border-box; } }
+    /* line 57, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+    footer .nav-to-contact .contact-ttl .contact-sub-ttl p {
+      font-size: 16px;
+      color: #FFF;
+      letter-spacing: 0.2em;
+      font-weight: 500;
+      padding-bottom: 30px; }
+    /* line 64, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+    footer .nav-to-contact .contact-ttl .contact-sub-ttl .footer_cv {
+      color: #FFF;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 72px;
+      margin: 20px auto;
+      display: block;
+      border: 4px solid #FFF;
+      width: 392px;
+      height: 78px;
+      margin-bottom: 60px; }
+      @media only screen and (max-width: 750px) {
+        /* line 64, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+        footer .nav-to-contact .contact-ttl .contact-sub-ttl .footer_cv {
+          width: 100%;
+          box-sizing: border-box; } }
+      /* line 78, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      footer .nav-to-contact .contact-ttl .contact-sub-ttl .footer_cv:hover {
+        background: rgba(255, 255, 255, 0.2);
+        color: #FFF;
+        -webkit-transform: scale(1.01, 1.01);
+        transform: scale(1.01, 1.01);
+        -moz-transform: scale(1.01, 1.01);
+        -o-transform: scale(1.01, 1.01);
+        -ms-transform: scale(1.01, 1.01); }
+      /* line 86, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      footer .nav-to-contact .contact-ttl .contact-sub-ttl .footer_cv img {
+        width: 24px;
+        height: auto;
+        position: relative;
+        top: 5px;
+        margin-right: 10px;
+        /*padding-right: 12px; */ }
+
+/* line 94, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+.footer_nav {
+  height: 120px;
+  line-height: 120px;
+  background-color: #1b1b1b;
+  border-bottom: solid 1px #1b1b1b; }
+  @media only screen and (max-width: 750px) {
+    /* line 94, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+    .footer_nav {
+      height: auto; } }
+  /* line 101, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+  .footer_nav img {
+    width: 120px;
+    height: auto; }
+  /* line 104, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+  .footer_nav ul {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0; }
+    /* line 109, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+    .footer_nav ul li {
+      vertical-align: top;
+      margin-top: 40px;
+      padding-right: 20px;
+      padding-left: 20px;
+      line-height: 30px;
+      display: inline-block; }
+      @media only screen and (max-width: 750px) {
+        /* line 109, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+        .footer_nav ul li {
+          padding: 20px 10px;
+          line-height: 20px; } }
+      /* line 119, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      .footer_nav ul li:first-child {
+        padding-left: 40px; }
+        @media only screen and (max-width: 750px) {
+          /* line 119, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+          .footer_nav ul li:first-child {
+            width: 100%;
+            text-align: center;
+            padding: 0; } }
+      /* line 125, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      .footer_nav ul li :nth-child(n+3) {
+        border-left: 1px solid #3a3a3a; }
+      /* line 127, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+      .footer_nav ul li a {
+        font-size: 12px;
+        font-weight: 500;
+        color: #FFF; }
+        /* line 131, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+        .footer_nav ul li a:hover {
+          text-decoration: underline; }
+  /* line 133, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_header.sass */
+  .footer_nav address {
+    font-size: 10px;
+    display: inline-block;
+    color: #999999;
+    font-style: normal;
+    font-family: "Century Gothic";
+    letter-spacing: 1.5px; }
+
+/* line 1, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+.contact-wrap {
+  width: 100%;
+  margin-bottom: 35px; }
+  @media only screen and (max-width: 750px) {
+    /* line 1, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+    .contact-wrap {
+      margin-bottom: 30px; } }
+
+/* line 6, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+.contact-form {
+  width: 600px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  padding: 10px 50px 40px;
+  border: solid 1px #dcdcdc;
+  border-top: solid 8px #dcdcdc;
+  background-color: white;
+  box-sizing: border-box; }
+  @media only screen and (max-width: 750px) {
+    /* line 6, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+    .contact-form {
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px 10px 40px;
+      min-height: auto; } }
+  /* line 20, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+  .contact-form img {
+    display: block;
+    width: 70%;
+    margin: 20px auto 35px; }
+    @media only screen and (max-width: 750px) {
+      /* line 20, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+      .contact-form img {
+        width: 100%; } }
+  /* line 29, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+  .contact-form form ul {
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 35px; }
+    /* line 33, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+    .contact-form form ul li {
+      list-style: none;
+      width: 530px;
+      float: left; }
+      @media only screen and (max-width: 750px) {
+        /* line 33, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+        .contact-form form ul li {
+          width: 100%;
+          float: none; } }
+      /* line 40, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+      .contact-form form ul li p {
+        margin: 0;
+        width: 60px;
+        float: left;
+        line-height: 35px; }
+      /* line 46, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+      .contact-form form ul li input[type="text"] {
+        border: solid 1px #dcdcdc;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 438px;
+        float: left;
+        height: 35px;
+        background-color: white; }
+        @media only screen and (max-width: 750px) {
+          /* line 46, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+          .contact-form form ul li input[type="text"] {
+            width: 100%; } }
+      /* line 57, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+      .contact-form form ul li input[placeholder="メールアドレス(必須)"] {
+        font-size: 12px; }
+      /* line 60, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+      .contact-form form ul li textarea[placeholder="お問い合わせ内容(必須)"] {
+        font-size: 1em; }
+      /* line 63, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+      .contact-form form ul li textarea {
+        border: solid 1px #dcdcdc;
+        width: 438px;
+        float: left;
+        height: 35px;
+        margin-bottom: 35px;
+        padding: 10px;
+        background-color: white;
+        box-sizing: border-box; }
+        @media only screen and (max-width: 750px) {
+          /* line 63, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+          .contact-form form ul li textarea {
+            width: 100%;
+            margin-top: 15px;
+            height: 40px; } }
+  /* line 76, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+  .contact-form form .button {
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 10px; }
+    @media only screen and (max-width: 750px) {
+      /* line 76, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+      .contact-form form .button {
+        width: 100px; } }
+    /* line 83, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+    .contact-form form .button input[type="submit"] {
+      -webkit-appearance: none;
+      width: 100%;
+      background: #2e84d4 !important;
+      font-size: 1em;
+      border: none;
+      color: #FFF !important;
+      margin: 0;
+      padding: 4px 0;
+      display: block;
+      letter-spacing: 2px;
+      cursor: pointer;
+      border-radius: 10px;
+      transition-duration: 0.3s;
+      transition-property: opacity; }
+    /* line 100, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/_contact.sass */
+    .contact-form form .button input[type="submit"]:hover {
+      opacity: 0.8; }
+
+/* line 14, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+html {
+  width: 100%;
+  height: 100%; }
+
+/* line 18, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+p, h1, h2, h3 {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 21, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+h1 {
+  letter-spacing: 1px; }
+
+/* line 24, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+body {
+  background-image: url(http://aogijuku.com/wp-content/themes/ao/todai-stylesheets/images/bg.png);
+  background-size: 50px;
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  margin: 0; }
+
+/* line 33, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+.introduction {
+  width: 900px;
+  margin: 0 auto 35px auto;
+  background-color: white;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  @media only screen and (max-width: 750px) {
+    /* line 33, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .introduction {
+      width: 95%;
+      margin: 0 auto 30px auto;
+      padding-bottom: 30px; } }
+  /* line 44, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .introduction .title-category {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative; }
+    /* line 51, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .introduction .title-category h1 {
+      color: white;
+      font-size: 16px;
+      margin: 0;
+      vertical-align: middle; }
+      /* line 56, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .title-category h1::before {
+        content: "";
+        background-image: url(../images/microphone.png);
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-size: cover;
+        vertical-align: middle; }
+  /* line 65, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .introduction .introduction_image-wrap {
+    width: 88%;
+    margin: 20px auto;
+    padding: 15px 15px 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #f5f5f5; }
+    @media only screen and (max-width: 750px) {
+      /* line 65, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .introduction_image-wrap {
+        margin: 10px auto;
+        padding: 10px;
+        width: 94%; } }
+  /* line 76, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .introduction .introduction_text-wrap {
+    width: 88%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box; }
+    @media only screen and (max-width: 750px) {
+      /* line 76, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .introduction_text-wrap {
+        width: 90%;
+        padding: 0;
+        padding-bottom: 10px; } }
+    /* line 85, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .introduction .introduction_text-wrap time {
+      color: #708090;
+      font-size: 10px;
+      font-style: italic; }
+      /* line 89, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .introduction_text-wrap time::before {
+        content: "";
+        background-image: url(../images/clock.png);
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        background-size: cover;
+        vertical-align: middle;
+        margin-right: 5px; }
+    /* line 98, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .introduction .introduction_text-wrap .share {
+      height: auto;
+      background-color: white;
+      padding: 10px 0 20px 0px;
+      box-sizing: border-box;
+      position: relative;
+      width: 100%;
+      top: 0;
+      left: 0;
+      margin-left: 0;
+      overflow: hidden;
+      border-bottom: solid 2px #dcdcdc; }
+      /* line 111, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .introduction_text-wrap .share p {
+        font-weight: bold;
+        color: #708090; }
+      /* line 114, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .introduction_text-wrap .share .twitter {
+        width: 180px;
+        float: left;
+        margin-right: 15px; }
+        @media only screen and (max-width: 750px) {
+          /* line 118, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .introduction_text-wrap .share .twitter.pc {
+            display: none; } }
+        /* line 121, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .introduction_text-wrap .share .twitter.sp {
+          display: none; }
+          @media only screen and (max-width: 750px) {
+            /* line 121, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .introduction .introduction_text-wrap .share .twitter.sp {
+              display: block;
+              width: 120px; } }
+        @media only screen and (max-width: 750px) {
+          /* line 114, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .introduction_text-wrap .share .twitter {
+            margin-right: 0; } }
+        /* line 129, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .introduction_text-wrap .share .twitter a.twitter-btn {
+          font: normal normal normal 13px/26px "Helvetica Neue", Arial, sans-serif;
+          height: 20px;
+          width: 120px;
+          padding-left: 3px;
+          border-radius: 4px;
+          box-sizing: border-box;
+          position: relative;
+          color: #333;
+          font-weight: bold;
+          cursor: pointer;
+          overflow: hidden;
+          display: inline-block;
+          vertical-align: top;
+          zoom: 1;
+          text-decoration: none;
+          background-color: #55acee;
+          margin-top: 4px; }
+          /* line 147, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .introduction_text-wrap .share .twitter a.twitter-btn span.label {
+            color: white;
+            line-height: 20px;
+            display: block; }
+            /* line 151, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .introduction .introduction_text-wrap .share .twitter a.twitter-btn span.label::before {
+              content: "";
+              display: inline-block;
+              width: 17px;
+              height: 17px;
+              background-image: url(../images/twitter.png);
+              background-size: cover;
+              vertical-align: text-bottom;
+              margin-right: 5px; }
+        /* line 160, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .introduction_text-wrap .share .twitter a {
+          display: block; }
+          /* line 162, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .introduction_text-wrap .share .twitter a img {
+            width: 40px;
+            margin-top: 5px; }
+      /* line 165, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .introduction_text-wrap .share .facebook {
+        text-align: center;
+        width: 105px;
+        height: 20px;
+        float: left;
+        margin-right: 15px;
+        margin-top: -4px; }
+        @media only screen and (max-width: 750px) {
+          /* line 165, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .introduction_text-wrap .share .facebook {
+            margin-top: 0; } }
+      /* line 175, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .introduction_text-wrap .share .youtube {
+        text-align: center;
+        border-radius: 5px;
+        background-color: #cd201f;
+        width: 60px;
+        height: 20px;
+        float: left; }
+        /* line 183, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .introduction_text-wrap .share .youtube a {
+          display: block;
+          height: 20px; }
+          /* line 186, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .introduction_text-wrap .share .youtube a img {
+            display: block;
+            margin: 4px auto;
+            height: 12px;
+            width: auto;
+            line-height: 20px; }
+  /* line 193, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .introduction img {
+    width: 100%;
+    height: auto;
+    margin: 0; }
+  /* line 238, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .introduction .interview-wrap {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 30px;
+    position: relative; }
+    /* line 243, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .introduction .interview-wrap.border {
+      border-bottom: solid 1px lightgray;
+      padding-bottom: 30px; }
+      @media only screen and (max-width: 750px) {
+        /* line 243, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .interview-wrap.border {
+          padding-bottom: 10px; } }
+    @media only screen and (max-width: 750px) {
+      /* line 238, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .interview-wrap {
+        width: 100%;
+        margin: 30px auto 0 auto; } }
+    /* line 252, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .introduction .interview-wrap .introduction_person {
+      width: 56%;
+      float: left;
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-right: 4%;
+      border-radius: 10px;
+      margin-bottom: 30px; }
+      @media only screen and (max-width: 750px) {
+        /* line 252, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .interview-wrap .introduction_person {
+          margin-right: 0;
+          width: 49%;
+          padding: 0;
+          margin-bottom: 15px;
+          margin-right: 2%; } }
+      /* line 267, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .interview-wrap .introduction_person:nth-child(2n) {
+        width: 40%;
+        margin-right: 0;
+        margin-bottom: 0; }
+        @media only screen and (max-width: 750px) {
+          /* line 267, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .interview-wrap .introduction_person:nth-child(2n) {
+            width: 49%; } }
+        /* line 273, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .interview-wrap .introduction_person:nth-child(2n) .textwrap {
+          overflow: hidden; }
+          /* line 275, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .interview-wrap .introduction_person:nth-child(2n) .textwrap .pic {
+            width: 20%;
+            float: left; }
+            @media only screen and (max-width: 750px) {
+              /* line 275, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+              .introduction .interview-wrap .introduction_person:nth-child(2n) .textwrap .pic {
+                width: 90%;
+                float: none;
+                margin: 0 auto; } }
+            /* line 283, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .introduction .interview-wrap .introduction_person:nth-child(2n) .textwrap .pic img {
+              width: 100%;
+              border-radius: 15px; }
+          /* line 286, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .interview-wrap .introduction_person:nth-child(2n) .textwrap h3 {
+            float: left;
+            width: 60%;
+            margin: 0;
+            margin-left: 3%;
+            margin-bottom: 10px;
+            color: black; }
+            @media only screen and (max-width: 750px) {
+              /* line 286, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+              .introduction .interview-wrap .introduction_person:nth-child(2n) .textwrap h3 {
+                margin-top: 10px;
+                width: 100%;
+                text-align: center;
+                margin-left: 0;
+                margin-top: 0; } }
+          /* line 299, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .interview-wrap .introduction_person:nth-child(2n) .textwrap p {
+            float: left;
+            width: 100%;
+            margin: 0;
+            background-color: inherit;
+            margin-left: 0;
+            font-weight: normal;
+            color: black;
+            text-align: justify; }
+            @media only screen and (max-width: 750px) {
+              /* line 299, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+              .introduction .interview-wrap .introduction_person:nth-child(2n) .textwrap p {
+                width: 94%;
+                display: block;
+                margin: 0 auto 0 3%; } }
+      /* line 313, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .interview-wrap .introduction_person .textwrap {
+        overflow: hidden; }
+        /* line 315, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .interview-wrap .introduction_person .textwrap .pic {
+          width: 35%;
+          float: left; }
+          @media only screen and (max-width: 750px) {
+            /* line 315, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .introduction .interview-wrap .introduction_person .textwrap .pic {
+              width: 90%;
+              float: none;
+              margin: 0 auto; } }
+          /* line 322, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .interview-wrap .introduction_person .textwrap .pic img {
+            width: 100%;
+            border-radius: 15px; }
+        /* line 325, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .interview-wrap .introduction_person .textwrap h3 {
+          float: left;
+          width: 60%;
+          margin: 0;
+          margin-left: 3%;
+          margin-bottom: 10px;
+          color: black; }
+          @media only screen and (max-width: 750px) {
+            /* line 325, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .introduction .interview-wrap .introduction_person .textwrap h3 {
+              margin-top: 10px;
+              width: 100%;
+              text-align: center;
+              margin-left: 0;
+              margin-top: 0; } }
+        /* line 338, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .interview-wrap .introduction_person .textwrap p {
+          float: left;
+          width: 60%;
+          margin: 0;
+          background-color: inherit;
+          margin-left: 3%;
+          font-weight: normal;
+          color: black;
+          font-size: 14px;
+          text-align: justify; }
+          @media only screen and (max-width: 750px) {
+            /* line 338, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .introduction .interview-wrap .introduction_person .textwrap p {
+              width: 94%;
+              display: block;
+              margin: 0 auto 0 3%;
+              font-size: 12px; } }
+        /* line 353, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .interview-wrap .introduction_person .textwrap p.interviewee {
+          width: 60%;
+          float: left;
+          line-height: 20px;
+          font-weight: bold;
+          color: #696969;
+          margin: 0;
+          margin-left: 3%; }
+          @media only screen and (max-width: 750px) {
+            /* line 353, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .introduction .interview-wrap .introduction_person .textwrap p.interviewee {
+              width: 100%;
+              text-align: center;
+              margin-left: 0;
+              padding-left: 0; } }
+      /* line 366, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .interview-wrap .introduction_person h3 {
+        color: #708090;
+        font-size: 1em; }
+      /* line 369, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .interview-wrap .introduction_person p {
+        background-color: white;
+        border: none;
+        border-radius: 0;
+        padding: 0; }
+    /* line 374, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .introduction .interview-wrap .overview_table {
+      width: 400px;
+      margin: 30px auto 0;
+      float: none; }
+      @media only screen and (max-width: 750px) {
+        /* line 374, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .interview-wrap .overview_table {
+          width: 100%;
+          float: none;
+          padding-top: 0px;
+          margin-top: 20px; } }
+      /* line 383, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .interview-wrap .overview_table img {
+        width: 60px; }
+      /* line 400, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .interview-wrap .overview_table ul {
+        padding: 0; }
+        @media only screen and (max-width: 750px) {
+          /* line 400, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .interview-wrap .overview_table ul {
+            padding: 0; } }
+        /* line 404, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .interview-wrap .overview_table ul li {
+          list-style: none;
+          margin-bottom: 40px; }
+          @media only screen and (max-width: 750px) {
+            /* line 404, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .introduction .interview-wrap .overview_table ul li {
+              margin-bottom: 30px; } }
+          /* line 409, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .introduction .interview-wrap .overview_table ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            transition-duration: 0.3s;
+            transition-property: opacity;
+            font-weight: bold; }
+            /* line 416, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .introduction .interview-wrap .overview_table ul li a:hover {
+              opacity: 0.5; }
+  /* line 418, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .introduction h2 {
+    color: black;
+    border-bottom: solid 5px #f5f5f5; }
+  /* line 421, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .introduction .textwrap {
+    overflow: hidden; }
+    /* line 423, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .introduction .textwrap p {
+      margin: 0;
+      margin-top: 20px;
+      height: auto;
+      border-top: solid 1px #708090;
+      font-weight: bold;
+      color: #708090; }
+      /* line 430, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .textwrap p span.jukensei {
+        display: block;
+        color: white;
+        width: 80px;
+        height: 20px;
+        background-color: #008bd0;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 auto 5px auto; }
+      /* line 440, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction .textwrap p span.sotsugyousei {
+        display: block;
+        color: white;
+        width: 80px;
+        height: 20px;
+        background-color: #ff1493;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 auto 5px auto; }
+      @media only screen and (max-width: 750px) {
+        /* line 423, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .textwrap p {
+          background-color: #f5f5f5;
+          border-radius: 20px;
+          width: 100%;
+          float: none;
+          padding: 10px;
+          box-sizing: border-box; } }
+    /* line 458, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .introduction .textwrap .position {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto; }
+      @media only screen and (max-width: 750px) {
+        /* line 458, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .introduction .textwrap .position {
+          width: 110px;
+          height: 110px; } }
+  /* line 467, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .introduction p.yajirushi {
+    position: absolute;
+    width: 70px;
+    top: 45px;
+    color: #a9a9a9;
+    font-weight: bold;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    font-size: 70px; }
+    @media only screen and (max-width: 750px) {
+      /* line 467, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .introduction p.yajirushi {
+        width: 70px;
+        top: 50px; } }
+
+/* line 480, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+p.update {
+  text-align: center;
+  color: #708090;
+  margin: 30px 0; }
+
+/* line 484, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+.contents {
+  width: 900px;
+  margin: 0 auto 35px auto;
+  background-color: white;
+  padding: 35px 40px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  @media only screen and (max-width: 750px) {
+    /* line 484, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .contents {
+      width: 95%;
+      margin: 0 auto 30px auto;
+      padding: 20px 10px; } }
+  /* line 495, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .contents img {
+    width: 720px;
+    margin: 1.2em auto;
+    display: block; }
+    @media only screen and (max-width: 750px) {
+      /* line 495, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .contents img {
+        width: 100%;
+        margin: 1.4em auto; } }
+  /* line 502, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .contents .interview-wrap {
+    overflow: hidden; }
+    /* line 504, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .contents .interview-wrap .interviewee, .contents .interview-wrap .interviewer {
+      width: 150px;
+      float: left; }
+      /* line 507, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .contents .interview-wrap .interviewee h3, .contents .interview-wrap .interviewer h3 {
+        color: #008bd0;
+        font-size: 1em; }
+  /* line 510, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .contents .title-wrap {
+    overflow: hidden;
+    width: 610px;
+    margin: 0 auto; }
+    @media only screen and (max-width: 750px) {
+      /* line 510, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .contents .title-wrap {
+        width: 100%;
+        margin-bottom: 50px;
+        padding-left: 10px;
+        margin-top: 20px; } }
+    /* line 519, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .contents .title-wrap .number {
+      width: 50px;
+      height: 50px;
+      background-color: #be003f;
+      border-radius: 50%;
+      background-size: cover;
+      margin-right: 20px;
+      float: left; }
+      @media only screen and (max-width: 750px) {
+        /* line 519, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .contents .title-wrap .number {
+          margin-right: 10px;
+          width: 30px;
+          height: 30px; } }
+      /* line 532, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .contents .title-wrap .number p {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        line-height: 50px;
+        margin: 0; }
+        @media only screen and (max-width: 750px) {
+          /* line 532, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .contents .title-wrap .number p {
+            line-height: 30px; } }
+    /* line 540, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .contents .title-wrap h2 {
+      width: 540px;
+      color: black;
+      float: left;
+      box-sizing: border-box;
+      margin-top: 0;
+      margin-bottom: 45px;
+      line-height: 50px; }
+      @media only screen and (max-width: 750px) {
+        /* line 540, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .contents .title-wrap h2 {
+          width: calc(100% - 60px);
+          margin-bottom: 0;
+          line-height: 30px;
+          font-size: 18px; } }
+  /* line 554, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .contents .textwrap {
+    margin: 1.2em auto;
+    overflow: hidden;
+    width: 610px;
+    font-size: 16px; }
+    @media only screen and (max-width: 750px) {
+      /* line 554, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .contents .textwrap {
+        width: 100%; } }
+    /* line 561, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .contents .textwrap p {
+      width: 540px;
+      float: left;
+      margin: 0;
+      line-height: 28px;
+      letter-spacing: 0.5px;
+      font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      @media only screen and (max-width: 750px) {
+        /* line 561, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .contents .textwrap p {
+          width: calc(100% - 50px);
+          padding: 0px;
+          box-sizing: border-box; } }
+    /* line 572, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .contents .textwrap .position {
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: 20px;
+      font-weight: bold; }
+      @media only screen and (max-width: 750px) {
+        /* line 572, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .contents .textwrap .position {
+          margin-right: 10px; } }
+      /* line 580, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .contents .textwrap .position p {
+        width: 100%; }
+        @media only screen and (max-width: 750px) {
+          /* line 580, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .contents .textwrap .position p {
+            padding: 0; } }
+  /* line 584, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .contents .link_pdf {
+    width: 320px;
+    margin: 0 auto 60px auto; }
+    /* line 587, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .contents .link_pdf a {
+      font-size: 14px;
+      padding: 5px 15px;
+      border-radius: 5px;
+      display: block;
+      text-decoration: none;
+      background-color: #0090d5;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      border: solid 2px #0090d5;
+      transition-duration: 0.2s;
+      transition-property: background-color, color; }
+      /* line 600, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .contents .link_pdf a:hover {
+        background-color: white;
+        color: #0090d5; }
+
+/* line 605, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+.other-contents {
+  width: 900px;
+  margin: 0 auto 60px auto;
+  background-color: white;
+  padding-top: 30px;
+  overflow: hidden;
+  padding: 40px;
+  box-sizing: border-box;
+  padding-left: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  @media only screen and (max-width: 750px) {
+    /* line 605, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .other-contents {
+      width: 95%;
+      margin: 30px auto 30px;
+      padding: 0;
+      box-sizing: border-box; } }
+  /* line 620, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .other-contents .recommend-wrap {
+    width: 100%;
+    margin: 0 auto;
+    border: solid 1px #f5f5f5;
+    border-top: solid 5px rgba(0, 0, 0, 0.8); }
+    @media only screen and (max-width: 750px) {
+      /* line 620, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents .recommend-wrap {
+        border: none;
+        border-top: solid 5px rgba(0, 0, 0, 0.8); } }
+  /* line 628, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .other-contents h2 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    border-bottom: solid 1px #f5f5f5;
+    margin: 0;
+    padding: 10px;
+    padding-left: 15px; }
+    /* line 635, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .other-contents h2::before {
+      content: "";
+      background-image: url(../images/note.png);
+      width: 24px;
+      height: 30px;
+      display: inline-block;
+      background-size: cover;
+      vertical-align: middle;
+      margin-right: 5px; }
+  /* line 646, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .other-contents ul {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box; }
+    /* line 652, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .other-contents ul li {
+      width: 50%;
+      float: left;
+      list-style: none;
+      box-sizing: border-box;
+      border-bottom: solid 1px #f5f5f5;
+      padding: 10px 0; }
+      /* line 659, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents ul li:nth-child(2n+1) {
+        padding-right: 1%;
+        border-right: solid 1px #f5f5f5; }
+        @media only screen and (max-width: 750px) {
+          /* line 659, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .other-contents ul li:nth-child(2n+1) {
+            border-right: none;
+            padding-right: 0; } }
+      /* line 665, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents ul li:nth-child(2n) {
+        padding-left: 1%; }
+        @media only screen and (max-width: 750px) {
+          /* line 665, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .other-contents ul li:nth-child(2n) {
+            border-right: none;
+            padding-right: 0; } }
+      /* line 670, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents ul li:nth-child(5) {
+        border-bottom: none; }
+      /* line 672, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents ul li:nth-child(6) {
+        border-bottom: none; }
+      @media only screen and (max-width: 750px) {
+        /* line 652, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .other-contents ul li {
+          width: 100%;
+          padding: 0;
+          border-bottom: solid 1px #708090; } }
+      /* line 678, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents ul li a {
+        width: 100%;
+        height: 180px;
+        display: block;
+        text-decoration: none;
+        padding: 5px;
+        border-bottom: solid 5px white;
+        box-sizing: border-box;
+        transition-duration: 0.3s;
+        transition-property: border;
+        overflow: hidden; }
+        @media only screen and (max-width: 750px) {
+          /* line 678, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .other-contents ul li a {
+            height: auto; } }
+        /* line 691, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .other-contents ul li a:hover {
+          border-bottom: solid 5px #0090d5; }
+        /* line 693, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .other-contents ul li a img {
+          margin: 0;
+          width: 45%;
+          float: left; }
+          @media only screen and (max-width: 750px) {
+            /* line 693, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .other-contents ul li a img {
+              width: 100%;
+              float: none; } }
+        /* line 700, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .other-contents ul li a .recommend-article_textwrap {
+          width: 55%;
+          float: left;
+          padding-left: 15px;
+          box-sizing: border-box; }
+          @media only screen and (max-width: 750px) {
+            /* line 700, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .other-contents ul li a .recommend-article_textwrap {
+              width: 100%;
+              float: none;
+              padding-left: 0; } }
+          /* line 709, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .other-contents ul li a .recommend-article_textwrap h3 {
+            font-size: 14px;
+            font-weight: bold;
+            color: #0090d5;
+            margin: 0; }
+          /* line 714, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .other-contents ul li a .recommend-article_textwrap p {
+            font-size: 12px;
+            font-weight: normal;
+            color: black; }
+          /* line 718, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .other-contents ul li a .recommend-article_textwrap time {
+            color: #708090;
+            font-size: 10px;
+            font-style: italic; }
+            /* line 722, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+            .other-contents ul li a .recommend-article_textwrap time::before {
+              content: "";
+              background-image: url(../images/clock.png);
+              width: 10px;
+              height: 10px;
+              display: inline-block;
+              background-size: cover;
+              vertical-align: middle;
+              margin-right: 5px; }
+  /* line 731, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .other-contents .share {
+    height: auto;
+    background-color: white;
+    padding: 10px 0 20px 10px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    overflow: hidden; }
+    /* line 742, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .other-contents .share p {
+      font-weight: bold;
+      color: #708090; }
+    /* line 745, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .other-contents .share .twitter {
+      width: 180px;
+      float: left;
+      margin-right: 15px; }
+      @media only screen and (max-width: 750px) {
+        /* line 749, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .other-contents .share .twitter.pc {
+          display: none; } }
+      /* line 752, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents .share .twitter.sp {
+        display: none; }
+        @media only screen and (max-width: 750px) {
+          /* line 752, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .other-contents .share .twitter.sp {
+            display: block;
+            width: 105px; } }
+      /* line 758, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents .share .twitter a.twitter-btn {
+        font: normal normal normal 13px/26px "Helvetica Neue", Arial, sans-serif;
+        height: 20px;
+        width: 120px;
+        padding-left: 3px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        position: relative;
+        color: #333;
+        font-weight: bold;
+        cursor: pointer;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: top;
+        zoom: 1;
+        text-decoration: none;
+        background-color: #55acee;
+        margin-top: 4px; }
+        /* line 776, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .other-contents .share .twitter a.twitter-btn span.label {
+          color: white;
+          line-height: 20px;
+          display: block; }
+          /* line 780, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+          .other-contents .share .twitter a.twitter-btn span.label::before {
+            content: "";
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            background-image: url(../images/twitter.png);
+            background-size: cover;
+            vertical-align: text-bottom;
+            margin-right: 5px; }
+      /* line 789, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents .share .twitter a {
+        display: block; }
+        /* line 791, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .other-contents .share .twitter a img {
+          width: 40px;
+          margin-top: 5px; }
+    /* line 794, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .other-contents .share .facebook {
+      text-align: center;
+      width: 105px;
+      height: 20px;
+      float: left;
+      margin-right: 15px;
+      margin-top: -4px; }
+      @media only screen and (max-width: 750px) {
+        /* line 794, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .other-contents .share .facebook {
+          margin-top: 0; } }
+    /* line 804, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .other-contents .share .youtube {
+      text-align: center;
+      border-radius: 5px;
+      background-color: #cd201f;
+      width: 60px;
+      height: 20px;
+      float: left; }
+      /* line 812, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .other-contents .share .youtube a {
+        display: block;
+        height: 20px; }
+        /* line 815, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .other-contents .share .youtube a img {
+          display: block;
+          margin: 4px auto;
+          height: 12px;
+          width: auto;
+          line-height: 20px; }
+
+/* line 825, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+span.red {
+  color: #ff1493;
+  font-weight: bold; }
+/* line 828, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+span.blue {
+  color: #008bd0;
+  font-weight: bold; }
+
+/* line 832, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+.pagenation-wrap {
+  text-align: center;
+  margin: 100px auto 30px auto; }
+  /* line 835, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .pagenation-wrap .title-preview {
+    background-color: #be003f;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px; }
+    @media only screen and (max-width: 750px) {
+      /* line 835, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .pagenation-wrap .title-preview {
+        width: 100%; } }
+    /* line 842, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .pagenation-wrap .title-preview a {
+      width: auto;
+      display: block;
+      padding: 5px 10px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border: solid 2px #be003f;
+      border-radius: 5px;
+      transition-duration: 0.3s;
+      transition-property: color, background-color;
+      font-size: 14px; }
+      /* line 855, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .pagenation-wrap .title-preview a:hover {
+        background-color: white;
+        border: solid 2px #be003f;
+        color: #be003f; }
+  /* line 860, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+  .pagenation-wrap ul.pagenation {
+    display: inline-block;
+    padding: 0; }
+    /* line 863, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+    .pagenation-wrap ul.pagenation li {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      border: solid 2px #be003f;
+      float: left;
+      background-color: white;
+      border-radius: 5px;
+      line-height: 31px;
+      text-align: center;
+      font-weight: bold;
+      position: relative;
+      margin: 0 5px;
+      box-sizing: border-box; }
+      /* line 877, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .pagenation-wrap ul.pagenation li:hover {
+        background-color: #be003f;
+        border: solid 2px #be003f;
+        color: white;
+        transition-duration: 0.3s;
+        transition-property: color, background-color; }
+        /* line 883, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .pagenation-wrap ul.pagenation li:hover a {
+          color: white; }
+      /* line 885, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .pagenation-wrap ul.pagenation li a {
+        color: #be003f;
+        display: block;
+        box-sizing: border-box;
+        text-decoration: none; }
+      /* line 890, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+      .pagenation-wrap ul.pagenation li.current {
+        box-sizing: border-box;
+        background-color: #be003f;
+        border: solid 3px #be003f;
+        color: white;
+        line-height: 29px;
+        text-align: center;
+        font-weight: bold;
+        display: inline-block; }
+        /* line 899, /Users/c5_yuk/yuWorks/aogijuku-todai/source/stylesheets/all.sass */
+        .pagenation-wrap ul.pagenation li.current a {
+          color: white; }

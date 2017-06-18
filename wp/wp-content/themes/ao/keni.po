@@ -1,0 +1,536 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 09:25+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: WEBライダー <staff@web-rider.jp>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: 404.php:21 404.php:37 archive.php:53 index.php:83 page.php:59 search.php:69
+#: single.php:56
+msgid "Sorry, but you are looking for something that isn&#8217;t here."
+msgstr "お探しのページは見つかりませんでした"
+
+#: 404.php:39 archive.php:55 index.php:85 page.php:61 search.php:71
+#: single.php:58
+#, php-format
+msgid "Back to <a href=\"%1$s\">%2$s</a>"
+msgstr "<a href=\"%1$s\">%2$s</a>に戻る"
+
+#: 404.php:43 archive.php:58 index.php:45 page.php:64 search.php:74
+#: single.php:61
+msgid "Latest Info"
+msgstr "最新情報"
+
+#: archive.php:31 index.php:60 page.php:47 search.php:43 single.php:32
+msgid "Read the rest of this entry &raquo;"
+msgstr "この投稿の続きを読む &raquo;"
+
+#: archive.php:34 index.php:63 search.php:47 single.php:35
+msgid "Tags"
+msgstr "タグ"
+
+#: archive.php:40 index.php:70 search.php:56 single.php:41
+msgid "No Comments/Trackbacks &#187;"
+msgstr "コメント／トラックバック(0)"
+
+#: archive.php:40 index.php:70 search.php:56 single.php:41
+msgid "1 Comment/Trackback &#187;"
+msgstr "コメント／トラックバック(1)"
+
+#: archive.php:40 index.php:70 search.php:56 single.php:41
+msgid "% Comments/Trackbacks &#187;"
+msgstr "コメント／トラックバック(%)"
+
+#: archive.php:40 index.php:70 search.php:56 single.php:41
+msgid "Comments Closed"
+msgstr "コメントは受け付けていません。"
+
+#: archive.php:41 index.php:71 search.php:57 single.php:42
+msgid "TrackBack URL"
+msgstr "トラックバックURL"
+
+#: archive.php:42 index.php:72 page.php:51 search.php:58 single.php:43
+msgid "Edit"
+msgstr "編集"
+
+#: archive.php:43 index.php:73 search.php:59 single.php:44
+msgid "Category:"
+msgstr "カテゴリー:"
+
+#: archive.php:51 index.php:81 page.php:57 search.php:67 single.php:54
+msgid "Not Found"
+msgstr "見つかりませんでした。"
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"この投稿はパスワードで保護されています。コメントを閲覧するにはパスワードを入"
+"力してください。"
+
+#: comments.php:14
+msgid "Trackbacks &amp; Comments"
+msgstr "トラックバック&amp;コメント"
+
+#: comments.php:18
+msgid "Trackback URL for this post:"
+msgstr "この投稿のトラックバックURL:"
+
+#: comments.php:28
+msgid "Trackback(s)"
+msgstr "トラックバック"
+
+#: comments.php:37
+msgid "Comment(s)"
+msgstr "コメント"
+
+#: comments.php:44
+msgid "&laquo; New Comment"
+msgstr "&laquo; 新しいコメント"
+
+#: comments.php:45
+msgid "&laquo; Previous Comment"
+msgstr "&laquo; 以前のコメント"
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:69
+msgid "Leave a Reply"
+msgstr "コメントをどうぞ"
+
+#: comments.php:69
+#, php-format
+msgid "Leave a Reply for %s"
+msgstr "%s にコメントする"
+
+#: comments.php:76
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントを投稿するには<a href=\"%s\">ログイン</a>してください。"
+
+#: comments.php:83
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a> としてログイン中。"
+
+#: comments.php:83
+msgid "Log out of this account"
+msgstr "このアカウントからログアウト"
+
+#: comments.php:83
+msgid "Log out &raquo;"
+msgstr "ログアウト &raquo;"
+
+#: comments.php:88
+msgid "Name"
+msgstr "名前"
+
+#: comments.php:88 comments.php:91
+msgid "(required)"
+msgstr " (必須) "
+
+#: comments.php:91
+msgid "Mail (will not be published)"
+msgstr "メール (公開されません)"
+
+#: comments.php:94
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: comments.php:101
+msgid "Submit Comment"
+msgstr "コメント送信"
+
+#: functions.php:90 functions.php:131 functions.php:259 functions.php:485
+#: widget.php:287
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#: functions.php:92 functions.php:134 widget.php:290
+msgid "F j"
+msgstr "n月j日"
+
+#: functions.php:97 functions.php:140 widget.php:296
+#, php-format
+msgid "%s days ago"
+msgstr "%s日前"
+
+#: functions.php:99 functions.php:142 widget.php:298
+#, php-format
+msgid "%s day ago"
+msgstr "%s日前"
+
+#: functions.php:101 functions.php:144 widget.php:300
+msgid "Less than a day ago"
+msgstr "24時間以内"
+
+#: functions.php:181 functions.php:186
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: functions.php:182
+msgid ""
+"Excerpts are optional hand-crafted summaries of your content that can be "
+"used in your theme. <a href=\"http://codex.wordpress.org/Excerpt\" target="
+"\"_blank\">Learn more about manual excerpts.</a>"
+msgstr ""
+"抜粋は投稿内容から自分で作成する要約で、テーマの中で使用できます (オプショ"
+"ン)。<a href=\"http://wpdocs.sourceforge.jp/Template_Tags/the_excerpt\" "
+"target=\"_blank\">詳しくは Codex を参照</a>してください。"
+
+#: functions.php:255 functions.php:259 functions.php:263 functions.php:267
+#: functions.php:430 functions.php:485 functions.php:489 functions.php:493
+#, php-format
+msgid "Archive List for %s"
+msgstr "「%s」の記事一覧"
+
+#: functions.php:263 functions.php:369 functions.php:430 functions.php:489
+msgid "F Y"
+msgstr "Y年n月"
+
+#: functions.php:267 functions.php:493
+msgid "Y"
+msgstr "Y年"
+
+#: functions.php:271 functions.php:497
+msgid "Archive List for authors"
+msgstr "さんの記事一覧"
+
+#: functions.php:275 functions.php:501
+msgid "Archive List for blog"
+msgstr "ブログ記事一覧"
+
+#: functions.php:280 functions.php:506
+#, php-format
+msgid "Tag List for %s"
+msgstr "「%s」タグの記事一覧"
+
+#: functions.php:291 functions.php:434 functions.php:519
+#, php-format
+msgid "Search Result for %s"
+msgstr "「%s」の検索結果一覧"
+
+#: functions.php:304 functions.php:532 page-sitemap.php:30 topmenu.php:6
+msgid "Sitemap"
+msgstr "サイトマップ"
+
+#: functions.php:354
+msgid "This page is Sitemap."
+msgstr "サイトマップです。"
+
+#: functions.php:365
+#, php-format
+msgid "Tag List for %1$s in %2$s"
+msgstr "「%2$s」のタグ「%1$s」の記事一覧です"
+
+#: functions.php:369
+#, php-format
+msgid "Archive List for %1$s in %2$s"
+msgstr "「%2$s」内の「%1$s」アーカイブ記事一覧です"
+
+#: functions.php:373
+#, php-format
+msgid "Search Result for %1$s in %2$s"
+msgstr "「%2$s」内の「%1$s」検索結果です"
+
+#: functions.php:566
+msgid "Uncategorized"
+msgstr "未分類"
+
+#: functions.php:579 functions.php:582 functions.php:589 functions.php:602
+#: functions.php:605 functions.php:612
+#, php-format
+msgid "View all posts in %s"
+msgstr "%s の全投稿を表示"
+
+#: index.php:50
+msgid "Latest information of this site is available via RSS."
+msgstr "当サイトの更新情報はRSSフィードでも配信しています。"
+
+#: searchform.php:3 searchform.php:4
+msgid "search"
+msgstr "検索"
+
+#: widget.php:12
+msgid "Your blog&#8217;s WordPress Pages"
+msgstr "固定ページのリスト"
+
+#: widget.php:13
+msgid "Pages"
+msgstr "ページ"
+
+#: widget.php:70 widget.php:246 widget.php:372 widget.php:606 widget.php:735
+#: widget.php:816
+msgid "Title:"
+msgstr "タイトル"
+
+#: widget.php:72
+msgid "Sort by:"
+msgstr "ソート"
+
+#: widget.php:74
+msgid "Page title"
+msgstr "ページタイトル"
+
+#: widget.php:75
+msgid "Page order"
+msgstr "ページ順"
+
+#: widget.php:76
+msgid "Page ID"
+msgstr "ページ ID"
+
+#: widget.php:80
+msgid "Pages to be excluded:"
+msgstr "除外するページ"
+
+#: widget.php:95 widget.php:446
+msgid "Show Hatena Bookmark for posts"
+msgstr "はてなブックマーク数を表示する"
+
+#: widget.php:110
+msgid "Your blogroll"
+msgstr "リンクを表示"
+
+#: widget.php:111
+msgid "Links"
+msgstr "リンク"
+
+#: widget.php:125
+msgid "All Links"
+msgstr "すべてのリンク"
+
+#: widget.php:152
+msgid "A calendar of your blog&#8217;s posts"
+msgstr "ブログ投稿のカレンダー"
+
+#: widget.php:153
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: widget.php:166
+msgid "A list or dropdown of categories"
+msgstr "カテゴリーのリストまたはドロップダウン表示"
+
+#: widget.php:167 widget.php:173
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: widget.php:185
+msgid "Select Category"
+msgstr "カテゴリーを選択"
+
+#: widget.php:248
+msgid "Show as dropdown"
+msgstr "ドロップダウンで表示"
+
+#: widget.php:250
+msgid "Show post counts"
+msgstr "投稿数を表示"
+
+#: widget.php:252
+msgid "Show hierarchy"
+msgstr "階層を表示"
+
+#: widget.php:253
+msgid "Show category descriptions."
+msgstr "カテゴリーの説明を表示する"
+
+#: widget.php:269
+msgid "The most recent posts on your blog"
+msgstr "ブログの最近の投稿"
+
+#: widget.php:270 widget.php:340
+msgid "Recent Posts"
+msgstr "最近の投稿"
+
+#: widget.php:380
+msgid "Show post date:"
+msgstr "日付を表示"
+
+#: widget.php:382
+msgid "None"
+msgstr "なし"
+
+#: widget.php:383
+msgid "Year"
+msgstr "年"
+
+#: widget.php:384
+msgid "Month"
+msgstr "月"
+
+#: widget.php:385
+msgid "Diff"
+msgstr "x日前"
+
+#: widget.php:395
+msgid "Number of posts to show:"
+msgstr "表示数"
+
+#: widget.php:396
+msgid "(at most 15)"
+msgstr "(最大 15)"
+
+#: widget.php:407
+msgid "Categories to be searched:"
+msgstr "検索するカテゴリー"
+
+#: widget.php:428
+msgid "Show posts randomly"
+msgstr "ランダムに表示"
+
+#: widget.php:434
+msgid "Show excerpts"
+msgstr "抜粋を表示"
+
+#: widget.php:440
+msgid "Show featured image"
+msgstr "アイキャッチ画像を表示"
+
+#: widget.php:470
+msgid "The recent posts of the month on your blog"
+msgstr "投稿月で絞り込み"
+
+#: widget.php:471 widget.php:478
+msgid "Posts of the Month"
+msgstr "特定の月の投稿"
+
+#: widget.php:514
+msgid "Year:"
+msgstr "年"
+
+#: widget.php:514
+msgid "(4 digits)"
+msgstr "(4桁)"
+
+#: widget.php:522
+msgid "Month:"
+msgstr "月"
+
+#: widget.php:547
+msgid "QR Code"
+msgstr "QR コード"
+
+#: widget.php:548 widget.php:553
+msgid "QR"
+msgstr "QR"
+
+#: widget.php:567
+#, php-format
+msgid "QR code representing %s"
+msgstr "%s の QR コード"
+
+#: widget.php:607
+msgid "Size:"
+msgstr "サイズ"
+
+#: widget.php:608
+msgid "Error Correction Level:"
+msgstr "エラー訂正レベル"
+
+#: widget.php:614
+msgid "Post URL? (Do not check if you use multi bytes slugs)"
+msgstr "個別URLを表示する (マルチバイトスラッグの場合はチェックしない)"
+
+#: widget.php:615 widget.php:753
+msgid "Description:"
+msgstr "説明"
+
+#: widget.php:629 widget.php:630
+msgid "RSS Image"
+msgstr "RSS 画像"
+
+#: widget.php:646
+#, php-format
+msgid "Syndicate %s using RSS"
+msgstr "%s の RSS を購読"
+
+#: widget.php:648
+msgid "Syndicate this site using RSS"
+msgstr "このサイトの RSS を購読"
+
+#: widget.php:662
+msgid "Name of Image File:"
+msgstr "画像ファイル名"
+
+#: widget.php:684
+msgid "Profile (PHP5 required)"
+msgstr "プロフィール(要PHP5)"
+
+#: widget.php:686 widget.php:691
+msgid "Profile"
+msgstr "プロフィール"
+
+#: widget.php:703
+msgid "profile"
+msgstr "プロフィール"
+
+#: widget.php:736
+msgid "Page for Profile Details"
+msgstr "プロフィール詳細ページ"
+
+#: widget.php:745
+#, php-format
+msgid "Name of Image File(files are in folder %s):"
+msgstr "(フォルダ %s 内の)画像ファイル名"
+
+#: widget.php:768
+msgid "Log in/out, admin, feed and WordPress links"
+msgstr "ログイン、管理画面、RSS フィード、WordPress へのリンク"
+
+#: widget.php:769 widget.php:774
+msgid "Meta"
+msgstr "メタ情報"
+
+#: widget.php:784
+msgid "Syndicate this site using RSS 2.0"
+msgstr "このサイトの RSS 2.0 を取得"
+
+#: widget.php:784
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "エントリ <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: widget.php:787
+msgid "The latest comments to all posts in RSS"
+msgstr "最近のコメントの RSS"
+
+#: widget.php:787
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "コメント <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: widget.php:790 widget.php:793
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+#: widget.php:817
+msgid "Show RSS link for posts"
+msgstr "投稿の RSS を表示する"
+
+#: widget.php:818
+msgid "Show RSS link for comments"
+msgstr "コメントの RSS を表示する"
+
+#: widget.php:819
+msgid "Show link for WordPress"
+msgstr "WordPress へのリンクを表示する"
+
+#: widget.php:820
+msgid "Show link for WordPress Japan"
+msgstr "WordPress 日本語へのリンクを表示する"
+
+#: widget.php:850 widget.php:851 widget.php:856
+msgid "Contact"
+msgstr "問い合わせ"
+
+msgid "Related Posts"
+msgstr "関連記事"

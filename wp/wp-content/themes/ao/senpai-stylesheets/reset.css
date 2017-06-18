@@ -1,0 +1,165 @@
+@charset "utf-8";
+/*
+Theme Name: AO義塾新フレーム
+Description: 制作：みねい
+*/
+
+/* =========================================
+
+  このCSSの構成
+
+-----------------------------------------
+
+Foundation
+	Reset
+	Typeface
+
+Layout
+
+Object
+	Component
+	Project
+	Utility
+========================================= */
+/*=========================================
+Foundataion
+==========================================*/
+/*------------------------------------------
+	Reset
+------------------------------------------*/
+
+html, body, div, span,a, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:bottom;
+    word-break: break-word;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+body{
+	background-color:#fff;　/* bodyにつける背景はfooterと同一カラーを推奨 */
+}
+
+/*-----------------------------------------
+	TypeFace
+-----------------------------------------*/
+
+/* Win8以降のYuGothicは、
+normal以下だと細書体が適用されるため、
+数字で指定する必要がある */
+
+html{	font-size:62.5%;}
+@media screen and (max-width: 641px) {
+	html{	font-size:31.25%;}
+}
+
+
+
+body{
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Meiryo","メイリオ", sans-serif;
+	font-weight:500;
+	line-height:1em;
+}
+
+h1,h2,h3,h4,h5,h6,strong,em,dt,th{
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W6", "Meiryo","メイリオ", sans-serif;
+	font-weight:800;
+}
+
+ruby{
+
+}
+
+.hirakakuW6{
+	font-family:"ヒラギノ角ゴ Pro W6","HiraKakuProN-W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight:600;
+}
+.hirakakuW8{
+	font-family:'Hiragino Kaku Gothic Std','ヒラギノ角ゴ Std W8',"ヒラギノ角ゴ Pro W6","HiraKakuProN-W6", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight:800;
+}
+.tume5em{
+	letter-spacing:-0.5em;
+}
+.joshi{
+	font-size:0.85em;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+/* 文字選択時の色変更 */
+
+::selection { background: #f5f9fc; color: #888; }
+::-moz-selection { background: #F8E6AF; color: #666666; }
+
+
+/* dinfont設定（オハコ版から継承） */
+
+@font-face {
+    font-family: 'din_1451';
+    src: url('fonts/dinmittelschriftstd-webfont.eot');
+    src: url('fonts/dinmittelschriftstd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dinmittelschriftstd-webfont.woff') format('woff'),
+         url('fonts/dinmittelschriftstd-webfont.ttf') format('truetype'),
+         url('fonts/dinmittelschriftstd-webfont.svg#din_1451_stdmittelschrift') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.din_1451 {
+	font-family: 'din_1451';
+	font-weight: lighter;
+}
+
+
+/*-----------------------------------------
+	マウスオーバー時の挙動
+-----------------------------------------*/
+*{
+	transition: background-color 0.3s ease-out, opacity 0.3s ease-out, box-shadow 0.3s ease-out, color 0.3s ease-out, border 0.3s ease-out;
+	-webkit-transition: background-color 0.3s ease-out, opacity 0.3s ease-out, box-shadow 0.3s ease-out, color 0.3s ease-out, border 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out, opacity 0.3s ease-out, box-shadow 0.3s ease-out, color 0.3s ease-out, border 0.3s ease-out;
+	-ms-transition: background-color 0.3s ease-out, opacity 0.3s ease-out, box-shadow 0.3s ease-out, color 0.3s ease-out, border 0.3s ease-out;
+}
+
+a:hover{
+	opacity:0.4;
+	filter: alpha(opacity=40);
+	-ms-filter: "alpha( opacity=40 )";
+}
+a.not-change:hover{
+	opacity:1.0;
+	filter: alpha(opacity=100);
+	-ms-filter: "alpha( opacity=100 )";
+}
